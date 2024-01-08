@@ -1,0 +1,65 @@
+body{
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    color: #01260A;
+}
+
+nav{
+    background-color: rgb(179, 179, 179);
+    margin: 3px;
+    padding: 5px;
+    text-align: center;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav > a:visited{
+    color: white;
+}
+
+nav > a:hover{
+    color: #7bff00;
+}
+
+
+
+main{
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+section{
+    background-color: rgb(179, 179, 179);
+}
+
+h2{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    padding: 4px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#rodape{
+    color: white;
+    margin: 0px;
+}

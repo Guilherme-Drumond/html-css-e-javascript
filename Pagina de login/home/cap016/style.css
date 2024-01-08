@@ -1,0 +1,10 @@
+#main{
+    margin: auto;
+    max-width: 371px;
+    min-width: auto;
+    background-color: beige;
+    border-color: black;
+    border: 5px solid red;
+    padding: 5px;    
+    border-radius: 10px;
+}

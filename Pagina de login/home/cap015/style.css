@@ -1,0 +1,29 @@
+.link{
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+.link:visited{
+    color: rgb(0, 191, 255);
+
+}
+
+.link:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.link::before{
+    content: '✅';
+    color: red;
+}
+.link::after{
+    content: ' (Link)';
+    color: blue;
+    font-weight: normal;
+}
+
+
+.link:visited > ::before{
+    content: '✅';
+}

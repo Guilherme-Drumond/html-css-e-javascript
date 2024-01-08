@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Nubank';
+    src: url(../cap013/Graphik-Font-Family/GraphikMedium.otf) format('opentype'), url(../cap013/Graphik-Font-Family/GraphikMediumItalic.otf);
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    border-radius: 10px;
+    box-shadow: 3px 6px 8px black;
+    background-color: white;
+    text-align: center;
+    width: 700px;
+    padding: 15px;
+    margin: auto;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Nubank';
+    line-height: 1.16;
+    font-size: 3rem;
+    color: rgb(130, 10, 209);
+}
+
+h2{
+    color: #7A91BF;
+}
+
+#titulomeio{
+    color: black;
+}
+
+body{
+    background-image: linear-gradient(to right,#7A91BF, #C4E1F2);
+}
