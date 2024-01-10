@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script> 
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -8,9 +9,19 @@
     <title>Playground</title>
 </head>
 <body>
-    <header>
-        <h1>Teste</h1>
-    </header>
-    <p>Lorem</p>
+   <!-- Element to contain animated typing -->
+   <h1 id="element"></h1>
+
+   <!-- Setup and start animation! -->
+   <script>
+     var typed = new Typed('#element', {
+       strings: ['Agro é ^100 Tech.', 'Agro é ^100 Pop.', 'Agro é ^100 Tudo.'],
+       showCursor: false,
+       smartBackspace: true,
+       loop: true,
+       typeSpeed:60,
+     });
+   </script>
+ </body>
 </body>
 </html>

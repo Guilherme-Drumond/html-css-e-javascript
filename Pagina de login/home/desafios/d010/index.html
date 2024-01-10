@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ptbr">
 <head>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <link rel="shortcut icon" href="pacote-projeto/imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
@@ -23,7 +24,15 @@
     <main>
         <section>
             <article id="primeiroartigo">
-                <h1 id="tituloum">História do Mascote do Android</h1>
+                <h1 id="tituloum"></h1>
+                <script>
+                    var typed = new Typed('#tituloum', {
+                      strings: ['História do Mascote do Android'],
+                      typeSpeed: 50,
+                      showCursor: false,
+                    });
+                  </script>
+
                 <p class="paragrafos">Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.</p>
 
                 <h2>A primeira versão</h2>
