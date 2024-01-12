@@ -16,3 +16,16 @@ mark{
 code{
     color: black;
 }
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+a:visited{
+    color: rgb(0, 0, 255);
+}
+
+a::after{
+    content: ' 🔗 ';
+}
