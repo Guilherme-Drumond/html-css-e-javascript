@@ -1,0 +1,34 @@
+body{
+    background-image: url(imagens/wallpaper004.jpg);
+    background-repeat: no-repeat;
+}
+
+.quadrado{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    display: inline-block;
+}
+
+#q1{
+    background-color: aqua;
+}
+
+#q2{
+    background-image: linear-gradient(to left, yellow, red);
+}
+
+#q3{
+    background-image: url(imagens/wallpaper002.jpg);
+}
+
+#q4{
+    background-image: url(imagens/pattern003.png);
+}
+
+h1{
+    text-align: center;
+    color: black;
+}
