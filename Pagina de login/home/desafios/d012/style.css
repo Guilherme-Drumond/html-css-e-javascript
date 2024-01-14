@@ -27,6 +27,7 @@ header > h1{
     font-family: 'Passion One', sans-serif;
     font-weight: bolder;
     font-size: 3em;
+    font-variant: small-caps;
 }
 
 header > p{
@@ -35,6 +36,7 @@ header > p{
 }
 
 a{
+    font-weight: bolder;
     text-decoration: none;
     color: white;
 }
@@ -52,14 +54,14 @@ main{
 }
 
 p{
-    line-height: 35px;
     font-family: 'Sriracha', cursive;
 }
 
 section{
     padding-left: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
 .normal{
@@ -67,13 +69,23 @@ section{
 }
 
 .imagem{
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.664);
     padding-left: 3%;
     background-color: gray;
-    background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     background-position: fixed;
+    background-attachment: fixed;
+}
+
+#imagem1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+
+#imagem2{
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
 }
 
 div{
