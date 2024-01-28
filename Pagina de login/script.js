@@ -16,7 +16,7 @@ function login(){
     } else if (vuser == user && vpass == pass){ //compara se os inputs são iguais as constantes user e pass
         document.getElementById("retorno").innerHTML = "Login bem sucedido";
         setTimeout(function redirecionar(){
-        window.location.href = "home/index.html";
+        window.location.href = "home/";
     }, 1000);
     } else if (vuser != user && vpass == pass){
         document.getElementById("retorno").innerHTML = "Usuário ou Senha invalídos";
