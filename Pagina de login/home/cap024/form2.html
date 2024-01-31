@@ -75,5 +75,55 @@
             <input type="radio" name="sexo" id="ifem"><label for="ifem" value="F">Feminino</label>
         </fieldset>
     </form>
+    <br>
+    <form action="cadastro.php">
+        <legend>Elementos color, range e file.</legend>
+        <fieldset>
+            <p>
+                <label for="icor">Cor:</label>
+                <input type="color" name="Cor" id="icor">
+            </p>
+            <p>
+                <label for="irange">Range: </label>
+                <input type="range" name="range" id="irange" min="1" max="5" value="5">
+            </p>
+            <p>
+                <label for="iarq">Arquivo: </label>
+                <input type="file" name="arq" id="iarq">
+            </p>
+        </fieldset>
+    </form>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Select, datalist e textarea.</legend>
+            <p>
+                <label for="iest"></label>
+                <select name="est" id="iest">
+                    <optgroup label="Região Suldeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <optgroup label="Região Nordeste">
+                            <option value="MA">Maranhão</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                        </optgroup>
+                    </optgroup>
+                </select>
+            </p>
+            <p>
+                <label for="iprof">Profissão: </label>
+                <input type="text" name="prof" id="iprof" list="lstprof" placeholder="Escolha ou digite uma profissão">
+                <datalist id="lstprof">
+                    <option>Administrador</option>
+                    <option>Desenvolvedor</option>
+                    <option>Contabilista</option>
+                    <option>Professor</option>
+                </datalist>
+            </p>
+            <label for="imsg">Mensagem: </label>
+            <textarea name="msg" id="imsg" cols="30" rows="5" placeholder="Insira sua Mensagem"></textarea>
+        </fieldset>
+    </form>
 </body>
 </html>
