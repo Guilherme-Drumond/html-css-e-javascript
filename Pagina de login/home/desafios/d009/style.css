@@ -11,3 +11,11 @@ div{
     position: relative;
     text-align: center;
 }
+
+ul{
+    display: inline-block;
+    columns: 2;
+    text-decoration: none;
+    list-style: none;
+
+}
