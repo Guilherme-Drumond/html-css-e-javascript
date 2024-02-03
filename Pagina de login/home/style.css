@@ -1,17 +1,32 @@
-img{
-    opacity: 0%;
-    width: 2%;
-    position: relative;
-    left: 98%;
+body{
+    margin: 0;
+    padding: 0;
 }
 
-img:hover{
-    opacity: 100%;
+header{
+    display: block;
+    background-image: linear-gradient(to right, blue, pink);
+    position: sticky;
+    top: 0;
+    color: white;
+}
+
+header > h1{
+    display: inline;
+}
+
+search{
+    display: inline-block;
+    position: absolute;
+    left: 85%;
+    top: 25%;
 }
 
 mark{
+    margin: 10px;
     background-color: greenyellow;
 }
+
 
 code{
     color: black;
