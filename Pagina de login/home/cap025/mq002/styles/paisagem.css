@@ -1,0 +1,5 @@
+html, body{
+    background-image: linear-gradient(to right, blue, yellow, white, green);
+    text-align: center;
+    color: black;
+}
