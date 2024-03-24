@@ -1,0 +1,48 @@
+@font-face{
+    font-family: "porsche";
+    src: local("porsche"),
+    url("fonts/911porscha/911porschav3title.ttf") format(truetype);
+}
+
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    width: 100vw;
+    display: inline;
+    background-color: rgb(27, 25, 25);
+    position: fixed;
+}
+
+header > h1{
+    color: white;
+    font-family: 'porsche';
+    text-align: left;
+    display: inline;
+}
+
+p{
+    text-align: center;
+    font-family: sans-serif;
+    padding-left: 100px;
+    font-size: larger;
+    display: inline-block;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(67, 67, 255);
+    transition: 0.5s;
+}
+
+#um{
+}
