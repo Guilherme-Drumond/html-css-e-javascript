@@ -44,5 +44,10 @@ a:hover{
     transition: 0.5s;
 }
 
+input{
+    text-align: center;
+}
+
 #um{
+    background-attachment: cover;
 }
