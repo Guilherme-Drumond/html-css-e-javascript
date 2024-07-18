@@ -15,3 +15,12 @@ function calcular(){
 
     document.querySelector('#resultado').innerHTML = "Você deve juntar "+formula+" por mês durante "+tempo+" Anos Para ter "+valorf+" Reais";
 }
+
+function calcularporcentagem(){
+    const pct = 100;
+    const valorporcentagem = document.querySelector('#porcentagem').value;
+    const valorinserido = document.querySelector('#valorp').value;
+    const formulap = (valorporcentagem/pct*(valorinserido));
+
+    document.querySelector('#resultadoporcentagem').innerHTML = valorporcentagem+"% de "+valorinserido+" é igual a: "+formulap;
+}
