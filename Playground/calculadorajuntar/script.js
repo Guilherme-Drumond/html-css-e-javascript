@@ -24,5 +24,3 @@ function calcularporcentagem(){
 
     document.querySelector('#resultadoporcentagem').innerHTML = valorporcentagem+"% de "+valorinserido+" é igual a: "+formulap;
 }
-
-setTimeout(function(){ alert("teste");}, 2000);
