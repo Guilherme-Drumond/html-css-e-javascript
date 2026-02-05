@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - InstaVida</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <h1>Crie sua conta</h1>
+    <p>Preencha os dados para começar.</p>
+    <form id="register-form">
+      <label>
+        Usuário
+        <input type="text" name="username" required>
+      </label>
+      <label>
+        Nome completo
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Avatar (iniciais)
+        <input type="text" name="avatar" maxlength="2">
+      </label>
+      <label>
+        Senha
+        <input type="password" name="password" required>
+      </label>
+      <button type="submit">Cadastrar</button>
+    </form>
+    <div class="auth-links">
+      <span>Já tem conta?</span>
+      <a href="login.html">Entrar</a>
+    </div>
+  </main>
+  <script src="auth.js"></script>
+</body>
+</html>
