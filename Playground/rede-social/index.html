@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InstaVida - Rede Social</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="logo">InstaVida</div>
+    <div class="search">
+      <input type="text" placeholder="Pesquisar">
+    </div>
+    <nav class="actions">
+      <a href="login.html" class="link" id="login-link">Entrar</a>
+      <a href="profile.html" class="link" id="profile-link">Perfil</a>
+      <button aria-label="Abrir notificações">❤</button>
+      <button aria-label="Abrir mensagens">✉</button>
+      <button aria-label="Abrir perfil">👤</button>
+    </nav>
+  </header>
+
+  <main class="layout">
+    <section class="feed">
+      <div class="stories" id="stories"></div>
+      <div class="posts" id="posts"></div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="profile">
+        <div class="avatar big" id="profile-avatar">JP</div>
+        <div>
+          <strong id="profile-username">@joaopaulo</strong>
+          <span id="profile-name">João Paulo Santos</span>
+        </div>
+        <button class="switch">Trocar</button>
+      </div>
+
+      <div class="suggestions">
+        <div class="suggestions-header">
+          <strong>Sugestões para você</strong>
+          <a href="#">Ver tudo</a>
+        </div>
+        <div id="suggestions"></div>
+      </div>
+    </aside>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

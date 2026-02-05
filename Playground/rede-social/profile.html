@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Perfil - InstaVida</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="auth.css">
+</head>
+<body class="auth-body">
+  <main class="auth-card">
+    <h1>Configurar perfil</h1>
+    <p>Atualize seus dados pessoais.</p>
+    <form id="profile-form">
+      <label>
+        Usuário
+        <input type="text" name="username" disabled>
+      </label>
+      <label>
+        Nome completo
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Avatar (iniciais)
+        <input type="text" name="avatar" maxlength="2">
+      </label>
+      <label>
+        Nova senha
+        <input type="password" name="password" placeholder="Deixe em branco para manter">
+      </label>
+      <button type="submit">Salvar alterações</button>
+    </form>
+    <div class="divider"></div>
+    <button id="delete-account" class="danger">Excluir minha conta</button>
+    <div class="auth-links">
+      <a href="index.html">Voltar ao feed</a>
+    </div>
+  </main>
+  <script src="profile.js"></script>
+</body>
+</html>
